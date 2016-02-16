@@ -1,1 +1,1 @@
-### React / Flux Builderplate
+### React / Flux
