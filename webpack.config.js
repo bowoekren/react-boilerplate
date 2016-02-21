@@ -11,7 +11,7 @@ module.exports = {
         loaders: [
             {
                 test: /\.jsx?$/,
-                exclude: /(node_modules|bower_components)/,
+                exclude: /(node_modules|bower_components|specs)/,
                 loader: 'babel-loader', // 'babel-loader' is also a legal name to reference
                 query: {
                     presets: ['react', 'es2015']

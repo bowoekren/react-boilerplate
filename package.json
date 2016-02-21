@@ -4,7 +4,7 @@
   "description": "react-boilerplate menggunakan webpack sebagai build tools dan babel-loader sebagai loadernya",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-register --recursive --reporter dot"
   },
   "author": "Arief Wibowo Wicaksono",
   "license": "MIT",
