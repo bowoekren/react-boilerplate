@@ -1,15 +1,16 @@
 import React from 'react';
-import Movie from './components/Movie';
+import ReactDOM from 'react-dom';
 
-class App extends React.Component{
+export default class App extends React.Component{
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
   render() {
     return (
       <div>
-        Hello from App Components
-        <Movie />
+        {this.props.name}
       </div>
     );
   }
 }
-
-React.render( <App />, document.body);
