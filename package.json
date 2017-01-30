@@ -4,7 +4,8 @@
   "description": "react-boilerplate menggunakan webpack sebagai build tools dan babel-loader sebagai loadernya",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-register --recursive --reporter spec"
+    "test": "mocha --compilers js:babel-register --recursive --reporter spec",
+    "start": "webpack-dev-server --content-base=dist --inline --hot"
   },
   "author": "Arief Wibowo Wicaksono",
   "license": "MIT",
@@ -23,6 +24,7 @@
     "mocha": "^2.4.5",
     "mocha-jsdom": "^1.1.0",
     "react-addons-test-utils": "^0.14.8",
-    "webpack": "^1.12.14"
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.16.2"
   }
 }

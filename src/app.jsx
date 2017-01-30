@@ -14,3 +14,8 @@ export default class App extends React.Component{
     );
   }
 }
+
+ReactDOM.render(
+  <App name="Hello from App Component" />,
+  document.getElementById('app-mount')
+)
